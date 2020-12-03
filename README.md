@@ -7,11 +7,14 @@ I got a bit tired from soldering SMD components, writing firmware, (and also obs
 ![Assembled Clock Board](images/Clock-Fairchild.JPG)
 
 ## Design Overview
-Please see the schematic file in the files section below.
+Please refer to the schematic file in the Design Files section below.
 
 The clock uses a 32768 Hz quartz crystal (X1) and 74HC4060 counter/divider IC (U1) to generate 2 Hz signal. This signal is divided further by 2 using a part of 74LS90 counter (U6). The obtained 1 Hz signal is fed to two 74LS90 counters (U11 and U12) that count seconds. The seconds reset circuit implemented using two 74LS00 NAND gates (U4A and U4B). This circuit resets both seconds and tens of seconds counters when they reach "60" or when "SECONDS" switch (SW1) is pressed, allowing seconds adjustment.
+
 The most significant bit of tens of seconds counter is fed to the minutes counter implemented using two 74LS90 counters (U13 and U14) through a multiplexer built from three 74LS00 NAND gates (U2C, U2D, U4D). The multiplexer selects between this "one pulse per minute" signal and the 2 Hz signal allowing setting up minutes. Two additional 74LS00 NAND gates (U2A and U2B) implement an RS flip-flop used to de-bounce "MINUTES" switch (SW2). The tens of the minutes 74LS90 counter (U14) is wired so that it resets itself when it reaches count of "6", so that minutes wrap around at "60".
+
 Similarly to minutes, the most significant bit of tens of minutes is fed to the hours counter implemented using two 74LS90 counters (U15 and U16) through a multiplexer built from three 74LS00 NAND gates (U3C, U3D, U4C). The multiplexer selects between this "one pulse per hour" signal and the 2 Hz signal allowing setting up hours. Two additional 74LS00 NAND gates (U3A and U3B) implement an RS flip-flop used to de-bounce "HOURS" switch (SW3). Both hours counters are wired in such a way that they will reset themselves once they reach the count of "24".
+
 Six 74LS47 7-segment decoders (U5 - U10) and 7-segment displays (DIS1 - DIS6) are used to decode the binary outputs of the counters and display the result in human readable 24-hours time format.
 
 ## Design Files
