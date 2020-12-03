@@ -4,7 +4,7 @@
 ## Introduction
 I got a bit tired from soldering SMD components, writing firmware, (and also observing people building vintage-looking Nixie clocks using modern microcontrollers). And recently when cleaning my parts boxes I found several 74LS47 7-segment decoders, some 74LS90 decade counters, and MAN1A 7-segment displays. So I thought, why not to build a nice little clock using these components.
 
-![Assembled Clock Board](images/Clock-Fairchild.jpp)
+![Assembled Clock Board](images/Clock-Fairchild.jpg)
 
 ## Design Overview
 Please see the schematic file in the files section below.
@@ -28,7 +28,7 @@ Six 74LS47 7-segment decoders (U5 - U10) and 7-segment displays (DIS1 - DIS6) ar
 Component type     | Reference | Description                                 | Quantity | Possible sources and notes
 ------------------ | --------- | ------------------------------------------- | -------- | --------------------------
 PCB                |           | 74xx Clock V1.0 Printed Circuit Board       | 1        | Order from [OSH Park](https://oshpark.com/shared_projects/NnJT8T4s) or another PCB manufacturer using provided KiCad or Gerber files
-Stand              |           | 3D printed stand for the clock              | 1        | (Optional) Print on a 3D printer using standforclock.stl. Thanks to Michael K. for designing this stand.
+Stand              |           | 3D printed stand for the clock              | 1        | (Optional) Print on a 3D printer using [standforclock.stl](printed_parts/standforclock.stl). Thanks to Michael K. for designing this stand.
 Capacitor          | C1 - C16  | 0.1uF, 50V, multilayer ceramic capacitor, axial | 16   | Mouser: [594-A104K15X7RF5UAA](https://www.mouser.com/ProductDetail/594-A104K15X7RF5UAA)
 Capacitor          | C17       | 100uF, 25V, electrolytic capacitor, radial, 5 mm diameter | 1 | Mouser: [647-UVY1E101MDD](https://www.mouser.com/ProductDetail/647-UVY1E101MDD)
 Capacitor          | C18       | 12pF, 50V, multilayer ceramic capacitor, 5.08 mm lead spacing | 1 | Mouser: [810-FK28C0G1H120J](https://www.mouser.com/ProductDetail/810-FK28C0G1H120J)
