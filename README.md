@@ -20,6 +20,7 @@ Six 74LS47 7-segment decoders (U5 - U10) and 7-segment displays (DIS1 - DIS6) ar
 ## Design Files
 
 [Schematic - Version 1.0](KiCad/LED_Clock-Schematic-1.0.pdf)
+
 [Board - Version 1.0](KiCad/LED_Clock-Board-1.0.pdf)
 
 ## Bill of Materials
