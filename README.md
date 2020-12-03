@@ -4,7 +4,7 @@
 ## Introduction
 I got a bit tired from soldering SMD components, writing firmware, (and also observing people building vintage-looking Nixie clocks using modern microcontrollers). And recently when cleaning my parts boxes I found several 74LS47 7-segment decoders, some 74LS90 decade counters, and MAN1A 7-segment displays. So I thought, why not to build a nice little clock using these components.
 
-![Assembled Clock Board](images/Clock-Fairchild.JPG)
+![Assembled Clock Board](images/Clock-Fairchild.jpg)
 
 ## Design Overview
 Please refer to the schematic file in the Design Files section below.
