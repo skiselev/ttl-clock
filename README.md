@@ -25,7 +25,7 @@ Six 74LS47 7-segment decoders (U5 - U10) and 7-segment displays (DIS1 - DIS6) ar
 
 ## Bill of Materials
 
-[74xx Clock project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=b30799acf1) - View and order all components except of the PCB.
+[TTL Clock V1.1 project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=75baf81884) - View and order all components except of the PCB.
 
 [TTL Clock Version 1.1 project on OSH Park](https://oshpark.com/shared_projects/GOxwvQh1) - Order PCBs.
 
