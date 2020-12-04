@@ -19,19 +19,19 @@ Six 74LS47 7-segment decoders (U5 - U10) and 7-segment displays (DIS1 - DIS6) ar
 
 ## Design Files
 
-[Schematic - Version 1.0](KiCad/LED_Clock-Schematic-1.0.pdf)
+[Schematic - Version 1.1](KiCad/TTL_Clock-Schematic-1.1.pdf)
 
-[Board - Version 1.0](KiCad/LED_Clock-Board-1.0.pdf)
+[Board - Version 1.1](KiCad/TTL_Clock-Board-1.1.pdf)
 
 ## Bill of Materials
 
 [74xx Clock project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=b30799acf1) - View and order all components except of the PCB.
 
-[74xx Clock V1 project on OSH Park](https://oshpark.com/shared_projects/NnJT8T4s) - Order PCBs.
+[TTL Clock Version 1.1 project on OSH Park](https://oshpark.com/shared_projects/GOxwvQh1) - Order PCBs.
 
 Component type     | Reference | Description                                 | Quantity | Possible sources and notes
 ------------------ | --------- | ------------------------------------------- | -------- | --------------------------
-PCB                |           | 74xx Clock V1.0 Printed Circuit Board       | 1        | Order from [OSH Park](https://oshpark.com/shared_projects/NnJT8T4s) or another PCB manufacturer using provided KiCad or Gerber files
+PCB                |           | 74xx Clock V1.0 Printed Circuit Board       | 1        | Order from [OSH Park](https://oshpark.com/shared_projects/GOxwvQh1) or another PCB manufacturer using provided KiCad or Gerber files
 Stand              |           | 3D printed stand for the clock              | 1        | (Optional) Print on a 3D printer using [standforclock.stl](printed_parts/standforclock.stl). Thanks to Michael K. for designing this stand.
 Capacitor          | C1 - C16  | 0.1uF, 50V, multilayer ceramic capacitor, axial | 16   | Mouser: [594-A104K15X7RF5UAA](https://www.mouser.com/ProductDetail/594-A104K15X7RF5UAA)
 Capacitor          | C17       | 100uF, 25V, electrolytic capacitor, radial, 5 mm diameter | 1 | Mouser: [647-UVY1E101MDD](https://www.mouser.com/ProductDetail/647-UVY1E101MDD)
