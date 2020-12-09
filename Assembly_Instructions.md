@@ -52,7 +52,7 @@ TTL Clock is a medium complexity project. While it uses through-hole components 
 
 ![Oscillator area](images/TTL_Clock-Oscillator.jpg)
   * Solder U1 - U16 integrated circuits as follows:
-    * Prior to placing an integrated circuit on the board bend its leads slightly, so they point 90 degrees downward. Put the IC on the side gently push it down to bend the leads. Repeat on the other side of the IC
+    * Prior to placing an integrated circuit on the board, bend its leads slightly, so they point 90 degrees downward. Put the IC on the side and gently push it down to bend the leads. Repeat on the other side of the IC
     * Double check that you're placing the integrated circuit in the right spot on the board, check the IC orientation. The index notch on the IC should match the boards silkscreen
     * Solder two oppsite pins (for example, pin 1 and pin 9). Flip the board to the component side, and __check the IC orientation and position again!__ It is not to late to desolder the IC and fix the mistake.
     * Solder remaining pins quickly (3 seconds per pin), to avoid overheating the integrated circuit
