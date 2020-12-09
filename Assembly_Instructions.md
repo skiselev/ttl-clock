@@ -82,4 +82,4 @@ TTL Clock is a medium complexity project. While it uses through-hole components 
   * Finaly set hours
 7. If needed fine tune the clock by turning the trim capacitor using a small screw driver. You might want to let the clock run overnight to check if gains or loses time
 
-Congratulations! Enjoy your TTL Clock!
+__Congratulations! Enjoy your TTL Clock!__
