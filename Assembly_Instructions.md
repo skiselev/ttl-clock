@@ -63,7 +63,7 @@ TTL Clock is a medium complexity project. While it uses through-hole components 
 ![Board with low profile components](images/TTL_Clock-Low_Profile_Components.jpg)
   * Solder C17 capacitor. Note that this is a __polarized__ electrolytic capacitor and it needs to be oriented properly. Make sure that the negative lead of the capacitor (marked on the package) matches the white colored area on the PCB.
   * Solder LEDs D1 - D4
-    * Note that the LEDs are __polarized__. The square pads on the board correspond to the negative (cathode) lead of the LED. The negative leads on the LED usually marked by an indent on otherwise round LED package, or by a shorted lead. The LEDs included in the kit will have their positive leads colored red. If in doubt - use the multimeter (set to diode mode) to check the polarity
+    * Note that the LEDs are __polarized__. The square pads on the board correspond to the negative (cathode) lead of the LED. The negative leads on the LED usually marked by an indent on otherwise round LED package, or by a shorter lead. The LEDs included in the kit will have their positive leads colored red. If in doubt - use the multimeter (set to diode mode) to check the polarity
     * When soldering LEDs, it is recommended to leave some space between the LED packages and the board and to keep soldering time to minimal to avoid overheating the LED
   * Solder LED displays U17 - U19
     * LED displays are __polarized__. Make sure that they are oriented correctly prior to soldering. The proper orientation can be easily determined by looking at the decimal point on the displays. It should reside on the bottom side on the display (close to the resistor arrays)
