@@ -6,6 +6,10 @@ I got a bit tired from soldering SMD components, writing firmware, (and also obs
 
 ![Assembled Clock Board](images/TTL_Clock-Complete.jpg)
 
+## Assembly Instructions
+
+[Assembly Instructions](Assembly_Instructions.md)
+
 ## Design Overview
 Please refer to the schematic file in the Design Files section below.
 
@@ -15,7 +19,7 @@ The most significant bit of tens of seconds counter is fed to the minutes counte
 
 Similarly to minutes, the most significant bit of tens of minutes is fed to the hours counter implemented using two 74LS90 counters (U15 and U16) through a multiplexer built from three 74LS00 NAND gates (U3C, U3D, U4C). The multiplexer selects between this "one pulse per hour" signal and the 2 Hz signal allowing setting up hours. Two additional 74LS00 NAND gates (U3A and U3B) implement an RS flip-flop used to de-bounce "HOURS" switch (SW3). Both hours counters are wired in such a way that they will reset themselves once they reach the count of "24".
 
-Six 74LS47 7-segment decoders (U5 - U10) and 7-segment displays (U17 - U19) are used to decode the binary outputs of the counters and display the result in human readable 24-hours time format.
+Six 74LS47 7-segment decoders (U5 - U10) are used to decode the binary outputs of the counters and 7-segment displays (U17 - U19) display the result in human readable 24-hours time format.
 
 ## Design Files
 
