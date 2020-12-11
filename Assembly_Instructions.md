@@ -12,6 +12,7 @@ TTL Clock is a medium complexity project. While it uses through-hole components 
 * Cutters
 * Well lit and ventilated workspace
 * Solder
+* Small phillips screwdriver (optional)
 * Multimeter (optional)
 * ESD safe surface and ESD strap (optional)
 * Isopropyl alcohol and a wipe to clean the flux (optional)
@@ -80,6 +81,6 @@ TTL Clock is a medium complexity project. While it uses through-hole components 
   * Reset seconds first
   * Set minutes next
   * Finally set hours
-7. If needed fine tune the clock by turning the trim capacitor using a small screw driver. You might want to let the clock run overnight to check if gains or loses time
+7. If needed fine tune the clock by turning the trim capacitor using a smallscrew driver. You might want to let the clock run overnight to check if gains or loses time
 
 __Congratulations! Enjoy your TTL Clock!__
