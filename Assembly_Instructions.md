@@ -12,7 +12,7 @@ TTL Clock is a medium complexity project. While it uses through-hole components 
 * Cutters
 * Well lit and ventilated workspace
 * Solder
-* Small phillips screwdriver (optional)
+* Small Phillips screwdriver (optional)
 * Multimeter (optional)
 * ESD safe surface and ESD strap (optional)
 * Isopropyl alcohol and a wipe to clean the flux (optional)
