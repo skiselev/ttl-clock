@@ -36,7 +36,8 @@ Six 74LS47 7-segment decoders (U5 - U10) are used to decode the binary outputs o
 Component type     | Reference | Description                                 | Quantity | Possible sources and notes
 ------------------ | --------- | ------------------------------------------- | -------- | --------------------------
 PCB                |           | TTL Clock V1.1 Printed Circuit Board        | 1        | Order from [OSH Park](https://oshpark.com/shared_projects/GOxwvQh1) or another PCB manufacturer using provided KiCad or Gerber files
-Stand              |           | 3D printed stand for the clock              | 1        | (Optional) Print on a 3D printer using [standforclock.stl](printed_parts/standforclock.stl). Thanks to Michael K. for designing this stand.
+Stand              |           | 3D printed stand for the clock              | 1        | (Optional) Print on a 3D printer using [stand.stl](printed_parts/stand.stl). Thanks to Michael K. for designing this stand.
+Screw              |           | M3 x 6mm screw                              | 2        | (Optional)
 Capacitor          | C1 - C16  | 0.1uF, 50V, multilayer ceramic capacitor, axial | 16   | Mouser: [594-A104K15X7RF5UAA](https://www.mouser.com/ProductDetail/594-A104K15X7RF5UAA)
 Capacitor          | C17       | 100uF, 25V, electrolytic capacitor, radial, 6.3 mm diameter | 1 | Mouser: [710-860040473003](https://www.mouser.com/ProductDetail/710-860040473003)
 Capacitor          | C18       | 12pF, 50V, multilayer ceramic capacitor, 5.08 mm lead spacing | 1 | Mouser: [810-FK28C0G1H120J](https://www.mouser.com/ProductDetail/810-FK28C0G1H120J)
